@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(version: 20161216122700) do
   end
 
   add_index "links", ["user_id"], name: "index_links_on_user_id"
-
   create_table "models", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
