@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+#for voting behavior
+gem 'acts_as_votable', '~>0.10.0'
 #for styling
 gem 'bootstrap-sass', '~>3.2.0.2'
 #for user authentication
