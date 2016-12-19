@@ -4,11 +4,11 @@ Rails.application.routes.draw do
 
   resources :links do
     member do
-      puts "like", to: "links#upvote"
-      puts "dislike", to: "links#downvote"
+      put "like", to: "links#upvote"
+      put "dislike", to: "links#downvote"
     end
   end
-  
+
   root to: 'links#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
