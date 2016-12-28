@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+#Rails forms made easy.
+gem 'simple_form'
 #for voting behavior
 gem 'acts_as_votable', '~>0.10.0'
 #for styling
